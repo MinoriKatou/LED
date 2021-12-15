@@ -32,7 +32,8 @@ LED x 1<br>
 
 # Circuit Diagram
 
-![image](https://user-images.githubusercontent.com/93694457/146134518-958ef9a3-3ed2-437d-ba1c-82c351d52705.png)
+![image](https://user-images.githubusercontent.com/93694457/146138311-514a2cd9-35ab-4d2d-aa58-5b760f3f3c59.png)
+
 
 ![S__26312731](https://user-images.githubusercontent.com/93694457/146136522-9e81728b-2aa8-4c44-a57d-1fdd5d6341b5.jpg)
 
