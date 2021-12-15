@@ -4,12 +4,12 @@
 
 # DEMO
 
-LEDを付けて消しました。
+LEDを付けて消しました．
 https://youtu.be/VaFWEoOYTV0
 
 # Features
 
-シンプルにLEDをつけたい人向け。
+シンプルにLEDをつけたい人向け．
 
 # Requirement
 
@@ -25,9 +25,18 @@ sudo apt install gcc
 sudo apt install make
 ```
 
+# tools
+
+Raspberry Pi 4 Model B x 1
+LED x 1
+抵抗220Ω x 1
+オスオスジャンパワイヤ x 2
+オスメスジャンパワイヤ x 2
+ブレッドボード x 1
+
 # Usage
 
-DEMOの実行方法など、"hoge"の基本的な使い方を説明する
+ディレクトリ内で以下のコマンドを実行．
 
 ```bash
 git clone https://github.com/hoge/~
