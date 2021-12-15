@@ -22,7 +22,7 @@ Raspberry Pi 4 Model B x 1<br>
 
 LED x 1<br>
 
-抵抗220Ω x 1<br>
+抵抗330Ω x 1<br>
 
 オスオスジャンパワイヤ x 2<br>
 
