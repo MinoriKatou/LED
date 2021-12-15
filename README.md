@@ -1,28 +1,28 @@
 # myled
 
-
+"myled" is a turn on the led with Linux.
 
 # DEMO
 
-"hoge"の魅力が直感的に伝えわるデモ動画や図解を載せる
+LEDを付けて消しました。
+https://youtu.be/VaFWEoOYTV0
 
 # Features
 
-"hoge"のセールスポイントや差別化などを説明する
+シンプルにLEDをつけたい人向け。
 
 # Requirement
 
-"hoge"を動かすのに必要なライブラリなどを列挙する
-
-* huga 3.5.2
-* hogehuga 1.0.2
+* ubuntu 20.04.3
+* Rspberry Pi 4 Model B
 
 # Installation
 
-Requirementで列挙したライブラリなどのインストール方法を説明する
+ubuntu
 
 ```bash
-pip install huga_package
+sudo apt install gcc
+sudo apt install make
 ```
 
 # Usage
@@ -31,8 +31,12 @@ DEMOの実行方法など、"hoge"の基本的な使い方を説明する
 
 ```bash
 git clone https://github.com/hoge/~
-cd examples
-python demo.py
+cd myled
+make
+sudo insmod myled.ko
+sudo chmod 666 /dev/myled0
+echo 1 > /dev/myled0
+echo 0 > /dev/myled0
 ```
 
 # Note
@@ -41,15 +45,13 @@ python demo.py
 
 # Author
 
-作成情報を列挙する
-
-* 作成者
-* 所属
-* E-mail
+* MinoriKatou
+* Chiba Institute of Technology
+* s20C1033CR@s.chibakoudai.jp
 
 # License
 
-"myled" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
+"myled" is under [GNU General Public License v2.0](https://www.gnu.org/licenses/).
 
 "hoge" is Confidential.
 
