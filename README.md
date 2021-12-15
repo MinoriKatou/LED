@@ -34,6 +34,8 @@ LED x 1<br>
 
 ![image](https://user-images.githubusercontent.com/93694457/146134518-958ef9a3-3ed2-437d-ba1c-82c351d52705.png)
 
+![S__26312731](https://user-images.githubusercontent.com/93694457/146136522-9e81728b-2aa8-4c44-a57d-1fdd5d6341b5.jpg)
+
 # Usage
 
 ディレクトリ内で以下のコマンドを実行．
@@ -65,7 +67,7 @@ make clean
 
 # Note
 
-* GPIO25を利用した回路です．
+* GPIO25ピンを利用した回路です．
 * LEDは向きがあるので気を付けて．
 
 # Author
