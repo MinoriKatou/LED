@@ -53,6 +53,4 @@ echo 0 > /dev/myled0
 
 "myled" is under [GNU General Public License v2.0](https://www.gnu.org/licenses/).
 
-"hoge" is Confidential.
-
 Thank you!
