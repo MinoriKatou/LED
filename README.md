@@ -16,15 +16,6 @@ https://youtu.be/VaFWEoOYTV0
 * ubuntu 20.04.3
 * Rspberry Pi 4 Model B
 
-# Installation
-
-ubuntu
-
-```bash
-sudo apt install gcc
-sudo apt install make
-```
-
 # tools
 
 Raspberry Pi 4 Model B x 1<br>
@@ -39,6 +30,10 @@ LED x 1<br>
 
 ブレッドボード x 1<br>
 
+# Circuit Diagram
+
+![image](https://user-images.githubusercontent.com/93694457/146134518-958ef9a3-3ed2-437d-ba1c-82c351d52705.png)
+
 # Usage
 
 ディレクトリ内で以下のコマンドを実行．
@@ -49,13 +44,29 @@ cd myled
 make
 sudo insmod myled.ko
 sudo chmod 666 /dev/myled0
+```
+以下コマンドで点灯
+
+```bash
 echo 1 > /dev/myled0
+```
+
+以下コマンドで消灯
+
+```bash
 echo 0 > /dev/myled0
+```
+
+実行後のディレクトリの後処理は以下コマンド
+
+```bash
+make clean
 ```
 
 # Note
 
-注意点などがあれば書く
+* GPIO25を利用した回路です．
+* LEDは向きがあるので気を付けて．
 
 # Author
 
