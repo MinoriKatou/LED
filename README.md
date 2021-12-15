@@ -27,12 +27,12 @@ sudo apt install make
 
 # tools
 
-Raspberry Pi 4 Model B x 1
-LED x 1
-抵抗220Ω x 1
-オスオスジャンパワイヤ x 2
-オスメスジャンパワイヤ x 2
-ブレッドボード x 1
+Raspberry Pi 4 Model B x 1<br>
+LED x 1<br>
+抵抗220Ω x 1<br>
+オスオスジャンパワイヤ x 2<br>
+オスメスジャンパワイヤ x 2<br>
+ブレッドボード x 1<br>
 
 # Usage
 
